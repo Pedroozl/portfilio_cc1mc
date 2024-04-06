@@ -1,51 +1,175 @@
-<html lang="en">
+<html>
   <head>
-    <title>Portifolio</title>
+    <title>Pedro Guarconi</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/css/glide.core.min.css" integrity="sha512-YQlbvfX5C6Ym6fTUSZ9GZpyB3F92hmQAZTO5YjciedwAaGRI9ccNs4iw2QTCJiSPheUQZomZKHQtuwbHkA9lgw==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
-
+  <div id="bck">
+    <img src='https://i.pinimg.com/originals/75/c2/f8/75c2f842863ae2df6b3ac2d0a4d63026.gif' alt="">
+  </div>
+  <header>
+    <div class="btn">
+      <h3>Conhecimentos</h3>
+    </div>
+    <div class="btn">
+      <h3>Contato</h3>
+    </div>
+  </header>
   <body>
-    <h1>Curriculo Virtual</h1>
-    <h2>Pedro Moreira Guarconi</h2>
-    <h1>Habilidades</h1>
-    <ul>
-      <li>5 anos de node.js</li>
-      <li>3 anos de React</li>
-      <li>3 anos react native</li>
-      <li>2 ano de next.js</li>
-      <li>3 anos de c++</li>
-      <li>3 anos de LUA</li>
-      <li>SQL (postgress, mysql)</li>
-      <li>noSQL (apache cassandraa, mongodb)</li>
-      <li>Engenharia reversa em games</li>
-    </ul>
-    <h1>Experiencias</h1>
-    <table border="1">
-      <thead>
-        <th>Empresa</th>
-        <th>Cargo</th>
-        <th>Salario</th>
-        <th>Observacap</th>
-      </thead>
-      <tbody>
-        <tr>
-          <td>VASP</td>
-          <td>Especialista</td>
-          <td>Era mto n</td>
-          <td>Vagabundos Autonomos Sustentados pelo Pai</td>
-        </tr>
-      </tbody>
-    </table>
-    <br />
-    <form style="display: block">
-      <label for="email">Email</label>
-      <input id="email" type="email" /><br />
-      <label for="subject">Assunto</label>
-      <input id="subject" type="text" /><br />
-      <label for="message">Mensagem</label>
-      <textarea name="message" id="message" cols="30" rows="10"></textarea
-      ><br />
-      <button>Enviar!</button>
-    </form>
-    <a href="https://github.com/Pedroozl?tab=repositories">Github</a>
+    <section class="sec" id="me">
+      <div class="name">
+        <h1>Pedro Moreira Garconi</h1>
+      </div>
+      <div class="bounce">
+        <i class="fa-solid fa-arrow-down" style="font-size: 40px;"></i>
+      </div>
+    </section>
+    <section class="sec" id="habilidades">
+      <div class="title">
+        <h1>Conhecimentos</h1>
+      </div>
+      <div class="glider" id="glider">
+        <div id="glide">
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+              <li class="glide__slide">
+                <div class="img">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/306px-ISO_C%2B%2B_Logo.svg.png" alt="">
+                </div>
+                <div class="desc">
+                  <div class="name_oft">
+                    <h1>C++</h1>
+                  </div>
+                  <div class="time">
+                    <h1>3 ANOS DE EXPERIENCIA</h1>
+                  </div>
+                  <div class="rest">
+                    <h3>C++ é uma linguagem que estende o C, adicionando recursos de programação orientada a objetos, manipulação de memória mais segura e uma biblioteca padrão mais abrangente.</h3>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="img">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/The_C_Programming_Language_logo.svg/318px-The_C_Programming_Language_logo.svg.png" alt="">
+                </div>
+                <div class="desc">
+                  <div class="name_oft">
+                    <h1>C</h1>
+                  </div>
+                  <div class="time">
+                    <h1>3 ANOS DE EXPERIENCIA</h1>
+                  </div>
+                  <div class="rest">
+                    <h3>A linguagem C é chamada de linguagem nível intermediária, pois combina os elementos das linguagens de alto nível com o funcionalismo da linguagem nível máquina.</h3>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="img">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" alt="">
+                </div>
+                <div class="desc">
+                  <div class="name_oft">
+                    <h1>React / React Native</h1>
+                  </div>
+                  <div class="time">
+                    <h1>4 ANOS DE EXPERIENCIA</h1>
+                  </div>
+                  <div class="rest">
+                    <h3>O React é uma biblioteca JavaScript declarativa, eficiente e flexível para criar interfaces com o usuário.</h3>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="img">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/2560px-Node.js_logo.svg.png" alt="">
+                </div>
+                <div class="desc">
+                  <div class="name_oft">
+                    <h1>Node.js</h1>
+                  </div>
+                  <div class="time">
+                    <h1>5 ANOS DE EXPERIENCIA</h1>
+                  </div>
+                  <div class="rest">
+                    <h3>O Node. js é a ferramenta que vai nos entregar a capacidade de interpretar código JavaScript, de maneira bem similar ao navegador.</h3>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="img">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Go_Logo_Blue.svg/1200px-Go_Logo_Blue.svg.png" alt="">
+                </div>
+                <div class="desc">
+                  <div class="name_oft">
+                    <h1>GO Lang</h1>
+                  </div>
+                  <div class="time">
+                    <h1>1 ANO DE EXPERIENCIA</h1>
+                  </div>
+                  <div class="rest">
+                    <h3>GoLang é uma linguagem compilada, estática e tipada que combina características de linguagens como C e C++, mas com uma sintaxe mais simples e fácil de aprender.</h3>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="img">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Rustacean-orig-noshadow.svg/220px-Rustacean-orig-noshadow.svg.png" alt="">
+                </div>
+                <div class="desc">
+                  <div class="name_oft">
+                    <h1>Rust Lang</h1>
+                  </div>
+                  <div class="time">
+                    <h1>1 ANO DE EXPERIENCIA</h1>
+                  </div>
+                  <div class="rest">
+                    <h3>Rust que foi construído do 0 é uma linguagem de programação expressiva e intuitiva como uma linguagem de alto nível e com muito controle e desempenho como uma de baixo nível.</h3>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section> 
+    <section class="sec" id="contato">
+      <div class="title">
+        <h1>Entre em contato</h1>
+      </div>
+      <div class="form">
+        <form>
+          <div class="input">
+            <label for="">Nome: </label>
+            <input type="text" name="nome">
+          </div>
+          <div class="input">
+            <label for="">Email: </label>
+            <input type="email" name="email">
+          </div>
+          <div class="input">
+            <label for="">Assunto: </label>
+            <input type="text" name="assunto">
+          </div>
+        </form>
+      </div>
+    </section>
+    <div class="rs">
+      <div class="b">
+        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="">
+      </div>
+    </div>
   </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/glide.min.js" integrity="sha512-IkLiryZhI6G4pnA3bBZzYCT9Ewk87U4DGEOz+TnRD3MrKqaUitt+ssHgn2X/sxoM7FxCP/ROUp6wcxjH/GcI5Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    window.onload = function() {
+      var glide = new Glide('#glide', {
+        type: "carousel",
+        focusAt: "center",
+        perView: 1
+      })
+
+      glide.mount()
+    }
+  </script>
 </html>
