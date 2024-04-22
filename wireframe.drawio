@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" modified="2024-04-21T23:50:16.346Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="5m0Y97K4RTUz7SqbGY32" version="24.2.5" type="device">
+  <diagram name="Página-1" id="FiaUfNCBZHzA1CzXpDwP">
+    <mxGraphModel dx="2390" dy="1363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Vz4zPmq_kpazDcgOahxE-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="680" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="Vz4zPmq_kpazDcgOahxE-3" value="NOME" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="308.5" y="150" width="223" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vz4zPmq_kpazDcgOahxE-7" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="370" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vz4zPmq_kpazDcgOahxE-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="540" width="680" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="Vz4zPmq_kpazDcgOahxE-9" value="CONHECIMENTOS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="300" y="650" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vz4zPmq_kpazDcgOahxE-11" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="450" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vz4zPmq_kpazDcgOahxE-12" value="" style="shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=1;aspect=fixed;image=img/clipart/Gear_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="410" y="454.5" width="17.9" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="Vz4zPmq_kpazDcgOahxE-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="700" width="680" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Vz4zPmq_kpazDcgOahxE-16" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Heading&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="323" y="760" width="407" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Vz4zPmq_kpazDcgOahxE-17" value="" style="shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=1;aspect=fixed;image=img/clipart/Gear_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="130" y="750" width="93.77" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
